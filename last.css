@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #aa2b1d;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: #9ede73;
+  padding-top: 35px;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
