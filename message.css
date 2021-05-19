@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+  text-align: right;
+  display: block;
+}
+
+.text {
+  background-color: #aa2b1d;
+}
+
+.message {
+  display: block;
+}
+
+.bg {
+  background: url("./Images/arcade.png") no-repeat;
+  height: auto;
+}
+
+.fa-power-off {
+  font-size: 90px;
+  padding: 20px;
+  cursor: pointer;
+  display: inline-flexbox;
+}
+
+.fa-power-off:hover {
+  color: darkgray;
+}
+
+.fa-arrow-circle-right {
+  font-size: 90px;
+  padding: 20px;
+  color: #9ede73;
+  cursor: pointer;
+  display: inline-flexbox;
+}
+
+.fa-arrow-circle-right:hover {
+  color: darkgray;
+}
+
+h1,
+h3 {
+  color: #9ede73;
+  padding-top: 35px;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  padding: 40px 5px;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  display: contents;
+}
+
+@media only screen and (max-width: 550px) {
+  .text {
+    text-align: center;
+  }
+  .fas {
+    text-align: center;
+  }
+}
